@@ -29,13 +29,22 @@ export function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-primary hover:bg-primary-glow shadow-volleyball">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary-glow shadow-volleyball"
+              onClick={() => document.getElementById('jogadores')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Upload className="mr-2 h-5 w-5" />
-              Enviar Vídeo
+              Adicionar Jogadores
             </Button>
-            <Button size="lg" variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="bg-white/10 border-white/30 text-white hover:bg-white/20"
+              onClick={() => document.getElementById('comparacao')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <BarChart3 className="mr-2 h-5 w-5" />
-              Ver Dashboard
+              Ver Comparação
             </Button>
           </div>
 
