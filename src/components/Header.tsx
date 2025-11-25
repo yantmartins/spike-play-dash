@@ -32,16 +32,16 @@ export function Header() {
               Sobre
             </button>
             <button 
-              onClick={() => scrollToSection('upload')} 
+              onClick={() => scrollToSection('jogadores')} 
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
-              Upload
+              Jogadores
             </button>
             <button 
-              onClick={() => scrollToSection('dashboard')} 
+              onClick={() => scrollToSection('comparacao')} 
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
-              Dashboard
+              Comparação
             </button>
             <Button>Começar</Button>
           </nav>
@@ -65,16 +65,16 @@ export function Header() {
               Sobre
             </button>
             <button 
-              onClick={() => scrollToSection('upload')} 
+              onClick={() => scrollToSection('jogadores')} 
               className="block w-full text-left px-4 py-2 hover:bg-muted rounded-lg transition-colors"
             >
-              Upload
+              Jogadores
             </button>
             <button 
-              onClick={() => scrollToSection('dashboard')} 
+              onClick={() => scrollToSection('comparacao')} 
               className="block w-full text-left px-4 py-2 hover:bg-muted rounded-lg transition-colors"
             >
-              Dashboard
+              Comparação
             </button>
             <div className="px-4">
               <Button className="w-full">Começar</Button>
